@@ -10,7 +10,6 @@ namespace Recommendations.Data
         public DataContext()
             : base(new OracleConnection(ConfigurationManager.ConnectionStrings["OracleDB"].ConnectionString), true)
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<DataContext, Migrations.Configuration>("OracleDB"));
         }
 
         public DbSet<Actor> Actors { get; set; }
