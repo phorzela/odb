@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Oracle.ManagedDataAccess.EntityFramework</id>
+    <version>12.1.020-Beta1</version>
+    <title>ODP.NET, Managed Entity Framework Driver</title>
+    <authors>Oracle</authors>
+    <owners>Oracle</owners>
+    <licenseUrl>http://www.oracle.com/technetwork/licenses/odac-ea-license-2226342.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This NuGet package is for ODP.NET, Managed Driver applications that use Code First and/or Entity Framework 6 applications. It will add the Oracle Entity Framework assembly and auto-configure for its use. Note that this package does not include ODP.NET, Managed Driver which is available as a separate NuGet package.</description>
+    <summary>The ODP.NET, Managed Driver Entity Framework package for Code First and EF 6 applications.</summary>
+    <copyright>2014</copyright>
+    <tags>ODP.NET Oracle DB database EF Entity Framework</tags>
+    <dependencies>
+      <dependency id="EntityFramework" version="6.0.0" />
+      <dependency id="Oracle.ManagedDataAccess" version="12.1.0" />
+    </dependencies>
+  </metadata>
+</package>

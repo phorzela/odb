@@ -1,0 +1,10 @@
+<configuration>
+  <connectionStrings>
+    <add name="TestContext" providerName="Oracle.ManagedDataAccess.Client" connectionString="User Id=test;Password=testpassword;Data Source=eftest" />
+  </connectionStrings>
+  <entityFramework>    
+    <providers>
+      <provider invariantName="Oracle.ManagedDataAccess.Client" type="Oracle.ManagedDataAccess.EntityFramework.EFOracleProviderServices, Oracle.ManagedDataAccess.EntityFramework, Version=6.121.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342" />
+    </providers>
+  </entityFramework>
+</configuration>

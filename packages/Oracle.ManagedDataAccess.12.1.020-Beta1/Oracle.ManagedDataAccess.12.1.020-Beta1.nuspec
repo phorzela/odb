@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Oracle.ManagedDataAccess</id>
+    <version>12.1.020-Beta1</version>
+    <title>ODP.NET, Managed Driver</title>
+    <authors>Oracle</authors>
+    <owners>Oracle</owners>
+    <licenseUrl>http://www.oracle.com/technetwork/licenses/odac-ea-license-2226342.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>ODP.NET, Managed Driver is a 100% native .NET code driver. No additional Oracle Client software is required to be installed to connect to Oracle Database.</description>
+    <summary>The official Oracle Data Provider for .NET, Managed Driver for Oracle Database.</summary>
+    <copyright>2014</copyright>
+    <tags>ODP.NET Oracle DB database</tags>
+  </metadata>
+</package>
