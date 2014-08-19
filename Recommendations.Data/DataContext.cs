@@ -12,7 +12,7 @@ namespace Recommendations.Data
             : base(new OracleConnection(ConfigurationManager.ConnectionStrings["OracleDB"].ConnectionString), true)
         {
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<DataContext, Migrations.Configuration>("RecommendationPortal"));
-            throw new Exception("dsfsdfs");
+            ///throw new Exception("dsfsdfs");
         }
 
         public DbSet<Actor> Actors { get; set; }

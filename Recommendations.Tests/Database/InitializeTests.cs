@@ -13,13 +13,13 @@ namespace Recommendations.Tests.Database
     [TestClass]
     public class InitializeTests
     {
-        [TestMethod]
-        public void InitTestData()
-        {
-            CreateActors();
-            CreateFilmsWithComments();
-            AssignActorsToFilms();
-        }
+        //[TestMethod]
+        //public void InitTestData()
+        //{
+        //    CreateActors();
+        //    CreateFilmsWithComments();
+        //    AssignActorsToFilms();
+        //}
 
         [TestMethod]
         public void GetFilmsTest()

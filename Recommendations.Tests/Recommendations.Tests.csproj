@@ -67,7 +67,6 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Database\InitializeTests.cs" />
-    <Compile Include="Database\IntegrityTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
