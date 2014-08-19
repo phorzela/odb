@@ -1,4 +1,5 @@
-﻿using Recommendations.Data.Migrations;
+﻿using System;
+using Recommendations.Data.Migrations;
 using System.Data.Entity;
 
 namespace Recommendations.Data
@@ -8,6 +9,7 @@ namespace Recommendations.Data
         public override void InitializeDatabase(DataContext context)
         {
             base.InitializeDatabase(context);
+            throw new Exception("ERROR");
         }
     }
 }
