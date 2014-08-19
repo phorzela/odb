@@ -1,4 +1,5 @@
-﻿using Oracle.ManagedDataAccess.Client;
+﻿using System;
+using Oracle.ManagedDataAccess.Client;
 using Recommendations.Entities;
 using System.Configuration;
 using System.Data.Entity;
@@ -10,8 +11,8 @@ namespace Recommendations.Data
         public DataContext()
             : base(new OracleConnection(ConfigurationManager.ConnectionStrings["OracleDB"].ConnectionString), true)
         {
-            Database.SetInitializer(new CustomInitializer());
-            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<DataContext, Migrations.Configuration>("RecommendationPortal"));
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<DataContext, Migrations.Configuration>("RecommendationPortal"));
+            throw new Exception("dsfsdfs");
         }
 
         public DbSet<Actor> Actors { get; set; }

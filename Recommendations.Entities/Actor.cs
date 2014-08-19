@@ -17,6 +17,10 @@ namespace Recommendations.Entities
         [StringLength(50)]
         public string NickName { get; set; }
 
+        [Required]
+        [StringLength(50)]
+        public string NickName22 { get; set; }
+
         public ICollection<Film> Films { get; set; }
     }
 }
